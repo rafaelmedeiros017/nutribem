@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrição e Dietas</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #07f958;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #026406;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    background-color: #79eb86;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#dietas">Dietas</a></li>
+                <li><a href="#receitas">Receitas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+            <h1>Sobre Nós</h1>
+            <p>Bem-vindo ao nosso site de nutrição e dietas! Nossa equipe de especialistas em nutrição está aqui para ajudá-lo a alcançar seus objetivos de saúde e bem-estar.</p>
+        </section>
+        <section id="dietas">
+            <h1>Dietas Personalizadas</h1>
+            <p>Nossa equipe de nutricionistas criará um plano de dieta personalizado para você, levando em conta suas necessidades e objetivos.</p>
+            <ul>
+                <li><a href="dieta-vegetariana.html">Dieta Vegetariana</a></li>
+                <li><a href="dieta-low-carb.html">Dieta Low-Carb</a></li>
+                <li><a href="dieta-para-perder-peso.html">Dieta para Perder Peso</a></li>
+            </ul>
+        </section>
+        <section id="receitas">
+            <h1>Receitas Saudáveis</h1>
+            <p>Encontre receitas deliciosas e saudáveis para você e sua família.</p>
+            <ul>
+                <li><a href="receita-salada-de-frutas.html">Salada de Frutas</a></li>
+                <li><a href="receita-peixe-grelhado.html">Peixe Grelhado</a></li>
+                <li><a href="receita-sopa-de-legumes.html">Sopa de Legumes</a></li>
+            </ul>
+        </section>
+        <section id="contato">
+            <h1>Contato</h1>
+            <p>Fale conosco!</p>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome"><br><br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem"></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Nutrição e Dietas</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
