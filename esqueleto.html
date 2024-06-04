@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nutribem</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-    font-family: Arial, sans-serif;
-    margin: 0px;
-    padding: 0px;
+
+   
+   <style>
+       @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+    body {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         font-family: 'Noto Sans', sans-serif;  
     
 }
-
 header {
-    color: #000000;
+    color: #ffff;
     padding: 25px;
     text-align: center;
     background-color: #589250;
@@ -33,7 +36,7 @@ nav li {
 }
 
 nav a {
-    color: #000000fe;
+    color: #ffff;
     text-decoration: none;
 
 }
@@ -49,13 +52,21 @@ section {
     padding: 0px;
     margin-bottom: 20px;
     align-items: center;
-    background-color: #589250;
+    background-color: #8bbe84;
     
 }
 
 h1 {
     font-size: 20px;
     margin-bottom: 30px;
+}
+
+.tittle{
+    color: #ffff;
+}
+
+.titlle2{
+    color: #ffff;
 }
 
 ul {
@@ -72,7 +83,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #170268;
+    color: #ffffff;
     width: 50px;
     height: 50px;
     align-items: center;
@@ -94,8 +105,10 @@ a {
        
         </section>
         <section id="dietas">
+            <div class="tittle">
             <h1>Dietas Personalizadas</h1>
             <p>Nossa equipe de nutricionistas criará um plano de dieta personalizado para você, levando em conta suas necessidades e objetivos.</p>
+        </div>
             <ul>
                 <li><a href="dieta-vegetariana.html">Dieta Vegetariana</a></li>
                 <img src="dieta vegetariana.png" width="100" height="80">
@@ -123,10 +136,12 @@ a {
     </body>
         </section>
         <section id="contato">
+            <div class="titlle2">
             <h1>Contato</h1>
             <p>Fale conosco!
                 Estamos aqui para ajudá-lo em cada passo da sua jornada nutricional. Se você tiver dúvidas, sugestões ou quiser agendar uma consulta, não hesite em nos contatar.
             </p>
+        </div>
             <form>
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome"><br><br>
