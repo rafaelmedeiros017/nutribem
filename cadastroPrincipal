@@ -8,7 +8,7 @@
 
 <body>
     
-    <div class="container">
+    <div clas="container">
         <div class="form-image">
             <img src="imagem.svg">
         </div>
