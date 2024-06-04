@@ -93,6 +93,11 @@
 <style>
 
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    
     body {
          margin: 0;
          padding: 0;
@@ -133,10 +138,13 @@
         margin: 0 auto;
         width: 50%;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         flex-direction: column;
         background-color: #ffff;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
     }
 
     .form-header{
@@ -149,6 +157,7 @@
     .login-button{
         display: flex;
         align-items: center;
+        
 
     }
 
@@ -158,6 +167,7 @@
         padding: o.4rem 1rem;
         border-radius: 5px;
         cursor: pointer;
+        
     }
 
     .login-button button:hover{
@@ -214,6 +224,7 @@
 
     .input-box label,
     .gender-tittle h6{
+        margin: ;
         font-size: 0.75rem;
         font-weight: 600;
         color:#000000c0;
@@ -228,6 +239,7 @@
         justify-content: space-between;
         margin-top: 0.62rem;
         padding: 0 0.5rem;
+        
     }
 
     .gender-input{
