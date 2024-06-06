@@ -91,6 +91,11 @@ body * {
     box-sizing: border-box;
 }
 
+.textfield > input:hover{
+    background-color:  #acbeaffa;
+        transition: 0.3s;
+}
+
 .textfield> label{
     color: #f0ffffde;
     margin-bottom: 10px;
@@ -122,6 +127,7 @@ body * {
 
 .btn-login:hover{
     background-color: rgb(190, 190, 190);
+    transition: 0.5s;
 }
 
 .btn-cadastro{
@@ -140,10 +146,12 @@ body * {
 .btn-cadastro a{
     text-decoration: none;
     color: rgb(73, 138, 82)
+    
 }
 
 .btn-cadastro:hover{
     background-color: rgb(190, 190, 190);
+    transition: 0.5s;
 }
 
 @media only screen and (max-width: 950px){
