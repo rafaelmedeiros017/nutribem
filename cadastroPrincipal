@@ -172,6 +172,7 @@
 
     .login-button button:hover{
         background-color: #335f39;
+        transition: 0.5s;
     }
 
     .login-button button a{
@@ -216,6 +217,7 @@
 
     .input-box input:hover{
         background-color: rgb(192, 192, 192);
+        transition: 0.3s;
     }
 
     .input-box input:focus-visible{
@@ -270,6 +272,7 @@
 
     .continue-button button:hover{
         background-color: #335f39;
+        transition: 0.5s;
     }
 
     .continue-button button a{
