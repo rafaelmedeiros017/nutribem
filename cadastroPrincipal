@@ -216,7 +216,7 @@
     }
 
     .input-box input:hover{
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(218, 214, 214);
         transition: 0.3s;
     }
 
