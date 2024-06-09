@@ -59,6 +59,7 @@ body * {
     flex-direction: column;
 }
 .left-login > h1{
+    font-size: 3ch;
     color:rgb(67, 107, 72)
     
 }
