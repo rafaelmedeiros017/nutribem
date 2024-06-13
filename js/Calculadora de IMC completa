@@ -37,7 +37,7 @@
                     </label>
                     <div class="input-field">
                         <i class="fa-solid fa-ruler"></i>
-                        <input type="number" id="height" required>
+                        <input type 0.01 ="number" id="height" required>
                         <span>
                             m
                         </span>
@@ -67,6 +67,7 @@
             </div>
         </section>
     </main>
+    <script src="z-calculadora.js"></script>
 
 
 <style>
@@ -260,11 +261,7 @@
     }
 
 
-
-    
-
 </style>
-
 
 <script>
     document.getElementById('form');
