@@ -39,7 +39,7 @@
                         <i class="fa-solid fa-ruler"></i>
                         <input type 0.01 ="number" id="height" required>
                         <span>
-                            m
+                            M
                         </span>
                     </div>
                 </div>
