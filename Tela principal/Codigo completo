@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <title>Nutribem</title>
+</head>
+<body>
+    <header class="menu-principal">
+        <main>
+        <div class="header-1">
+        <div class="logo">
+            <img src="logo.png">
+        </div>
+         <div class="redes-sociais">
+
+            <li class="instagram"><a href="">
+                <img src="instagram.png" width="30" height="30">
+            </a></li>
+        <li class="youtube"><a href="">
+                <img src="youtube.png" width="35" height="35">
+            </a></li>
+
+
+        </div>
+    </div>
+</main>
+    </header>
+    <main class="col-100 menu-urls">
+        <div class="header-2">
+            <div class="menu">
+                <ul>
+                    <li class="inicio"><a href=""> inicio</a></li>
+                    <li class="imc"><a href=""> calcule seu imc</a></li>
+                    <li class="dietas"><a href="">dietas</a></li>
+                    <li class="exercicios"><a href=""> exercicios</a></li>
+                    <li class="agua"><a href="">hidratação</a></li>
+                    <li class="contato"><a href="">contato</a></li>
+                </ul>
+            </div>
+            <div class="busca">
+                <input type="text" />
+            </div>
+        </div>
+    </main>
+    <div class="col-100">
+        <div class="slider-principal">
+            <img src="banner1.png">
+            <img src="banner2.png">
+            <img src="banner3.png">
+            <img src="banner4.png">
+          </div>
+        </div>
+          <div class="col-100 bloco texto">
+            <div class="content texto-detaque">
+                <h1>Bem-vindo ao seu guia de <strong>nutrição</strong> saudável!</h1>
+                <p>A nutrição desempenha um papel fundamental na nossa saúde e bem-estar. Uma alimentação equilibrada fornece os nutrientes essenciais que o 
+                corpo precisa para funcionar corretamente, incluindo vitaminas, minerais, proteínas, carboidratos e gorduras saudáveis. Uma boa nutrição
+                ajuda a prevenir doenças crônicas como diabetes, doenças cardíacas e obesidade, além de fortalecer o sistema imunológico, melhorar a energia
+                e promover um melhor funcionamento mental. Ao escolher alimentos nutritivos, você está investindo em uma vida mais saudável e cheia de vitalidade.
+                Lembre-se: uma boa alimentação é a base para uma vida plena e equilibrada.
+                </p>
+
+                <div class="col-3">
+                    <img src="icone1.png" width= "160" height="160">
+                    <h3>Crie metas</h3>
+                    <p>Estabelecer metas saudáveis é o caminho para uma jornada de autodescoberta e bem-estar duradouro.</p>
+                </div>
+                <div class="col-3 bloco de texto" style="margin-top: 6em;">
+                    <img src="icone-verde3.png" width="160" height="160">
+                    <h3>Rotina saudável</h3>
+                    <p>Uma rotina saudável é o alicerce para uma vida plena e feliz. Ao priorizar o 
+                    bem-estar físico e mental, cultivamos hábitos que nutrem corpo e alma.</p>
+                </div>
+                <div class="col-3">
+                    <img src="icone2.png" width="160" height="160">
+                    <h3>Tenha o seu tempo</h3>
+                    <p>A paciência na jornada da boa alimentação é a chave para colher os frutos duradouros da saúde.
+                    Ao esperar os resultados, cultivamos uma relação sustentável com nosso corpo e mente.</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-100 bloco-imagens-texto">
+            <div class="content" style="margin-left: 8%; float: left;">
+                <div class="col-3 bloco-texto bloco-imagem">
+                    <img src="./img/imagem1.png">
+                    <p><b>tutulo1</b></p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the
+                        industry. Lorem
+                        Ipsum has been
+                        the and scrambled it.
+                        atype specimen
+                    </p>
+                </div>
+                <div class="col-3 bloco-texto bloco-imagem">
+                    <img src="./img/imagem2.png">
+                    <p><b>tutulo2</b></p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the
+                        industry. Lorem
+                        Ipsum has been
+                        the and scrambled it.
+                        atype specimen
+                    </p>
+                </div>
+                <div class="col-3 bloco-texto bloco-imagem">
+                    <img src="./img/imagem3.png">
+                    <p><b>tutulo3</b></p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the
+                        industry. Lorem
+                        Ipsum has been
+                        the and scrambled it.
+                        atype specimen
+                    </p>
+                </div>
+            </div>
+            <div class="content" style="margin-left: 8%; float: left;">
+                <div class="col-3 bloco-texto bloco-imagem">
+                    <img src="./img/imagem1.png">
+                    <p><b>tutulo4</b></p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the
+                        industry. Lorem
+                        Ipsum has been
+                        the and scrambled it.
+                        atype specimen
+                    </p>
+                </div>
+                <div class="col-3 bloco-texto bloco-imagem">
+                    <img src="./img/imagem2.png">
+                    <p><b>tutulo5</b></p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the
+                        industry. Lorem
+                        Ipsum has been
+                        the and scrambled it.
+                        atype specimen
+                    </p>
+                </div>
+                <div class="col-3 bloco-texto bloco-imagem">
+                    <img src="./img/imagem3.png">
+                    <p><b>tutulo6</b></p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting of the
+                        industry. Lorem
+                        Ipsum has been
+                        the and scrambled it.
+                        atype specimen
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-100 bloco-logos">
+            <div class="content">
+                <div class="col-4">
+                    <img alt="logo" title="logo" src="img/logo1.png" />
+                </div>
+                <div class="col-4">
+                    <img alt="logo" title="logo" src="img/logo2.png" />
+                </div>
+                <div class="col-4">
+                    <br />
+                    <img alt="logo" title="logo" src="img/logo3.png" />
+                </div>
+                <div class="col-4">
+                    <img alt="Puma" title="Puma" src="img/logo4.png" />
+                </div>
+            </div>
+        </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+<style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+    *{
+        margin: 0px;
+        padding: 0px;
+       
+    }
+    
+    body {
+        margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         font-family: 'Noto Sans', sans-serif;
+        }
+
+        .menu-principal{
+            width: 100%;
+            background-color: #2e8b57;
+            height: 60px;
+        }
+
+        .main, content{
+            margin: 0 auto;
+            width: 980px;
+            position: relative;
+        }
+
+        .logo{
+            padding: 8px;
+            padding-left: 200px;
+            float: left;
+        }
+
+        .youtube{
+            display: inline-block;
+            margin-left: 42px;
+            list-style: none;
+            float: right;
+            padding: 12px;
+            padding-right: 15px;
+        }
+
+        .instagram {
+            display: inline block;
+            margin-left: 0;
+            list-style: none;
+            float :right; 
+            padding: 15px;
+            padding-right: 200px;
+        }
+
+        .header-2{
+            background-color: #ffffff;
+            width: 980px;
+            margin: 0 auto;
+            
+            
+        }
+
+        .menu-urls{
+            height: 75px;
+            border-bottom: 3px solid #d1cfcf;
+        }
+
+        .menu ul li{
+            display:  inline-block;
+            color: #2E8B57;
+            margin-left: 15px;
+            height: 55px;
+        }
+        
+        .menu ul li:hover{
+            border-bottom: 3px solid #2E8B57;
+    
+        }
+
+        .menu ul li a:hover{
+            color: #2E8B57;
+            transition: 0.3s;
+        }
+
+        .menu ul li a {
+            font-size: 18px;
+            color: #929292;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 3vh;
+
+        }  
+
+        .menu {
+            padding-top: 20px;
+            width: 80%;
+            float: left;
+        }
+
+        .busca{
+            width: 15%;
+            float: right;
+        }
+
+        .busca input{
+            height: 20px;
+            margin-top: 20px;
+            border: 1px solid #c4c3c3;
+            border-radius: 5px;
+        }
+
+        .col-100{
+            width: 100%;
+            float: left;
+            position: relative;
+        }
+
+        button.slick-prev{
+            font-size: 0px;
+            border: none;
+            width: 25px;
+            height: 51px;
+            z-index: 9;
+            background-color: transparent;
+            position: absolute;
+            background-image: url('seta-voltar.png');
+            top: 35%;
+            left: 2%;
+            
+       }
+
+       button.slick-next{
+            font-size: 0px;
+            border: none;
+            width: 25px;
+            height: 51px;
+            z-index: 9;
+            background-color: transparent;
+            position: absolute;
+            background-image: url('seta-seguir.png');
+            top: 35%;
+            right: 2%;
+        }
+
+        .slick-list{
+           width: 100%!important;
+        }
+
+       .slick-dots li button {
+            font-size: 0px;
+            border: 5px solid #d3d3d3;
+            width: 18px;
+            height: 18px;
+            background: transparent;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        .slick-dots{
+            margin: 0 auto;
+            width: 50%;
+            position: absolute;
+            left: 45%;
+            top: 93%;
+        }
+
+        li.slick-active button{
+        background: #2E8B57;
+        }
+
+       .slick-dots li{
+        padding-left: 10px;
+        display: inline-block;
+        }
+
+       .slick-initialized{
+        overflow: hidden;
+        }
+
+        .texto-detaque strong{
+            color: #313131;
+        }
+
+        .texto-detaque h1{
+            text-transform: uppercase;
+            color: #383838;
+            font-size: 30px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .texto-detaque p{
+            font-size: 15px;
+            color:#666666;
+            text-align: center;
+            margin-top: 30px;
+            margin-right: 7px;
+            margin-left: 7px;
+
+        }
+
+        .col-3{
+            margin-top: 50px;
+            margin-left: 20px;
+            padding-left: 50px;
+            padding-right: 10px;
+            width: 25%;
+            float: left;
+            position: relative;
+        }
+
+        .col-3 h3{
+            padding-left: 100px;
+        }
+
+        .col-3 img{
+            padding-left: 90px;
+        }
+
+        .bloco-imagem img {
+            margin: 0 auto;
+            width: 100%;
+            height: auto;
+        }
+        .bloco-imagem {
+            height: 300px;
+            border: 1px solid #c5c5c5;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin-left: 10px;
+        }
+        .bloco-imagem b, p {
+            text-align: left;
+        }
+        .bloco-texto {
+            margin-top: 3em;
+        }
+
+        .h3 {
+            font-weight: normal!important;
+        }
+
+        .bloco-imagens-texto {
+            background-color: #eeeeee;
+       }
+        .bloco-imagens-texto:before {
+            width: 100%;
+            display: inline-block;
+            content: '';
+            height: 52px;
+            background: #ffffff;
+            background-image: url('../img/setinha.png');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .bloco-imagens-texto:after {
+            width: 100%;
+            display: inline-block;
+            content: '';
+            height: 70px;
+            background: #eeeeee;
+
+        }
+
+        .col-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.col-4 img {
+cursor: pointer;
+ margin: 0 auto;
+ padding-top: 1em;
+ vertical-align: middle;
+}
+.col-4 img:hover {
+    margin-top: 10px!important;
+    position: relative!important;
+}
+
+.bloco-logos {
+    height: 170px;
+}
+
+.bloco-logos img {
+    margin-top: 50px;
+}
+
+
+
+</style>
+</body>
+<script>
+    
+    $('.slider-principal').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true,
+        autoplay: true,
+        autoplaySpeed: 2000
+    });
+</script>
+</html>
