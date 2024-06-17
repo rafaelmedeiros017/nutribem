@@ -1,1 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <title>Nutribem</title>
+</head>
+<body>
+    <header class="menu-principal">
+        <main>
+        <div class="header-1">
+        <div class="logo">
+            <img src="logo.png">
+        </div>
+         <div class="redes-sociais">
 
+            <li class="instagram"><a href="">
+                <img src="instagram.png" width="30" height="30">
+            </a></li>
+        <li class="youtube"><a href="">
+                <img src="youtube.png" width="35" height="35">
+            </a></li>
+
+
+        </div>
+    </div>
+</main>
+    </header>
+    <main class="col-100 menu-urls">
+        <div class="header-2">
+            <div class="menu">
+                <ul>
+                    <li class="inicio"><a href=""> inicio</a></li>
+                    <li class="imc"><a href="http://127.0.0.1:5500/Projeto%20final/a-imc.html"> calcule seu imc</a></li>
+                    <li class="dietas"><a href="">dietas</a></li>
+                    <li class="agua"><a href="">hidratação</a></li>
+                    <li class="contato"><a href="">contato</a></li>
+                </ul>
+            </div>
+            <div class="busca">
+                <input type="text" />
+            </div>
+        </div>
+    </main>
+    <div class="col-100">
+        <div class="slider-principal">
+            <img src="banner1.png">
+            <img src="banner2.png">
+            <img src="banner3.png">
+            <img src="banner4.png">
+          </div>
+        </div>
+          <div class="col-100 bloco texto">
+            <div class="content texto-detaque">
+                <h1>Bem-vindo ao seu guia de <strong>nutrição</strong> saudável!</h1>
+                <p>A nutrição desempenha um papel fundamental na nossa saúde e bem-estar. Uma alimentação equilibrada fornece os nutrientes essenciais que o 
+                corpo precisa para funcionar corretamente, incluindo vitaminas, minerais, proteínas, carboidratos e gorduras saudáveis. Uma boa nutrição
+                ajuda a prevenir doenças crônicas como diabetes, doenças cardíacas e obesidade, além de fortalecer o sistema imunológico, melhorar a energia
+                e promover um melhor funcionamento mental. Ao escolher alimentos nutritivos, você está investindo em uma vida mais saudável e cheia de vitalidade.
+                Lembre-se: uma boa alimentação é a base para uma vida plena e equilibrada.
+                </p>
+
+                <div class="col-3">
+                    <img src="icone1.png" width= "160" height="160">
+                    <h3>Crie metas</h3>
+                    <p>Estabelecer metas saudáveis é o caminho para uma jornada de autodescoberta e bem-estar duradouro.</p>
+                </div>
+                <div class="col-3 bloco de texto" style="margin-top: 6em;">
+                    <img src="icone-verde3.png" width="160" height="160">
+                    <h3>Rotina saudável</h3>
+                    <p>Uma rotina saudável é o alicerce para uma vida plena e feliz. Ao priorizar o 
+                    bem-estar físico e mental, cultivamos hábitos que nutrem corpo e alma.</p>
+                </div>
+                <div class="col-3">
+                    <img src="icone2.png" width="160" height="160">
+                    <h3>Tenha o seu tempo</h3>
+                    <p>A paciência na jornada da boa alimentação é a chave para colher os frutos duradouros da saúde.
+                    Ao esperar os resultados, cultivamos uma relação sustentável com nosso corpo e mente.</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-100 bloco-imagens-texto">
+            <div class="content" style="margin-left: 8%; float: left;">
+                <div class="col-3 bloco-texto bloco-imagem">
+                    <img src="saude1.png">
+                    <p><b>Consumo elevado de gorduras saturadas.</b></p>
+                    <p>Comer muitos alimentos gordurosos pode aumentar o colesterol ruim e o risco de doenças 
+                        cardíacas. Prefira gorduras saudáveis, como as de abacates, nozes 
+                        e peixes. Moderação é a chave para uma dieta equilibrada e saudável!
+                    </p>
+                </div>
+                <div class="col-3 bloco-texto bloco-imagem">
+                    <img src="saude2.png">
+                    <p><b>Consumir alimentos naturais é essencial para uma vida saudável.</b></p>
+                    <p>Alimentos naturais, como frutas e legumes, são ricos em nutrientes, vitaminas e fibras essenciais
+                         para a saúde. 
+                        Eles melhoram a digestão, aumentam a imunidade e ajudam a prevenir doenças. 
+                    </p>
+                </div>
+                <div class="col-3 bloco-texto bloco-imagem">
+                    <img src="saude3.png">
+                    <p><b>Cuidado com o sobrepeso.</b></p>
+                    <p>O sobrepeso aumenta o risco de doenças cardíacas, diabetes, hipertensão e certos cânceres, além de
+                         sobrecarregar as articulações.
+                         Manter um peso saudável é essencial para evitar esses problemas e garantir uma vida melhor.
+                    </p>
+                </div>
+            </div>
+            <div class="content" style="margin-left: 8%; float: left;">
+                <div class="col-3 bloco-texto bloco-imagem">
+                    <img src="saude4.png" margin-left: 8%; float: left;>
+                    <p><b>magreza elevada.</b></p>
+                    <p>Ser muito magro pode levar à desnutrição, fraqueza muscular, problemas
+                         ósseos e imunidade baixa. Manter um peso saudável é essencial para evitar esses riscos.
+                    </p>
+                </div>
+                <div class="col-3 bloco-texto bloco-imagem">
+                    <img src="saude5.png">
+                    <p><b>Crianças e os esportes.</b></p>
+                    <p>Incentivar as crianças a praticar esportes, melhorar a saúde, fortalecer músculos e ossos, 
+                        combater a obesidade e desenvolver disciplina e trabalho em equipe, formando adultos mais saudáveis.
+                    </p>
+                </div>
+                <div class="col-3 bloco-texto bloco-imagem">
+                    <img src="saude6.png">
+                    <p><b>A pratica de atividade fisica.</b></p>
+                    <p>A atividade física é essencial para a saúde, prevenindo doenças, melhorando o humor, fortalecendo o corpo e
+                         aliviando o estresse. Incorporar exercícios na rotina diária promove uma vida mais saudável e equilibrada.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-100 bloco-logos">
+            <div class="content">
+                <div class="col-4">
+                    <img alt="logo" title="logo" src="patrocinio1.png" width="170" height="170"/>
+                </div>
+                <div class="col-4">
+                    <img alt="logo" title="logo" src="patrocinio2.png" width="170" height="170"/>
+                </div>
+                <div class="col-4">
+                    <br />
+                    <img alt="logo" title="logo" src="patrocinio3.png" width="170" height="170"/>
+                </div>
+                <div class="col-4">
+                    <img alt="logo" title="logo" src="patrocinio4.png" width="170" height="170"/>
+                </div>
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="col-100 footer">
+                <div class="content">
+                    <div class="col-4">
+                        <h3><b>Publicação popular</b></h3>
+                        <p>Início da construção do site.</p>
+                        <p class="clock">09-Junho 2024<p>
+                                <p>Finalização da construção do site.</p>
+                                <p class="clock">12-Junho 2024<p>
+                    </div>
+                    <div class="col-4">
+                        <h3><b>Tags</b></h3>
+                        <p>Descubra ferramentas incríveis para facilitar sua alimentação saudável!
+
+                            MyFitnessPal: Acompanhe suas refeições e exercícios.
+                            Yazio: Personalize seu plano alimentar.
+                            Blog da Nutri: Receitas, dicas e informações científicas.
+                            Dieta e Saúde: Histórias inspiradoras e conselhos de especialistas.
+                            Mantenha-se informado e motivado com essas recomendações!</p>
+                    </div>
+                    <div class="col-4">
+                        <h3><b>Um pouco sobre nós</b></h3>
+                        <p>
+                            Bem-vindo ao nosso portal de nutrição! Somos uma equipe apaixonada por saúde e bem-estar, dedicada a promover uma alimentação equilibrada
+                             e consciente. Aqui, oferecemos dicas práticas, receitas saudáveis e informações baseadas em evidências científicas para ajudar você a fazer 
+                             as melhores escolhas alimentares.
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <h3><b>Entrar em contato</b></h3>
+                        <p>
+                            Tem dúvidas ou quer saber mais? Estamos aqui para ajudar! Envie uma mensagem para
+                            o e-mail abaixo ou ligue. 
+                            Responderemo o mais rápido possível!
+                        </p>
+                        <p class="local">Guanambi - Bahia<p>
+                                <p class="emailico">nutribembrasil@gmaail.com<p>
+                                        <p class="telefoneico">(77) 9983-3471<p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="col-100 footer-2">
+            <div class="content">
+    
+                <p>
+                    © 2024 - Nutrirbem Brasil
+                </p>
+            </div>
+        </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</body>
+</html>
