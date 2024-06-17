@@ -29,7 +29,7 @@ Calculadoras, Planos Alimentares.
 3 - Tecnologias Utilizadas
 Frontend:
 
-HTML, CSS
+HTML, CSS, JavaScrit
 
 Contato
 Se você tiver alguma dúvida, sugestão ou feedback, entre em contato conosco:
