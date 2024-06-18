@@ -3,212 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <title>Nutribem</title>
+    <title>Dietas</title>
 </head>
 <body>
+
     <header class="menu-principal">
         <main>
         <div class="header-1">
         <div class="logo">
             <img src="logo.png">
-        </div>
-         <div class="redes-sociais">
-
-            <li class="instagram"><a href="">
-                <img src="instagram.png" width="30" height="30">
-            </a></li>
-        <li class="youtube"><a href="">
-                <img src="youtube.png" width="35" height="35">
-            </a></li>
-
 
         </div>
     </div>
 </main>
     </header>
-    <main class="col-100 menu-urls">
-        <div class="header-2">
-            <div class="menu">
-                <ul>
-                    <li class="inicio"><a href=""> inicio</a></li>
-                    <li class="imc"><a href="http://127.0.0.1:5500/Projeto%20final/a-imc.html"> calcule seu imc</a></li>
-                    <li class="dietas"><a href="http://127.0.0.1:5500/Projeto%20final/a-dietas.html">dietas</a></li>
-                    <li class="agua"><a href="">hidratação</a></li>
-                    <li class="contato"><a href="">contato</a></li>
-                </ul>
-            </div>
-            <div class="busca">
-                <input type="text" />
-            </div>
-        </div>
-    </main>
-    <div class="col-100">
-        <div class="slider-principal">
-            <img src="banner1.png">
-            <img src="banner2.png">
-            <img src="banner3.png">
-            <img src="banner4.png">
-          </div>
-        </div>
-          <div class="col-100 bloco texto">
-            <div class="content texto-detaque">
-                <h1>Bem-vindo ao seu guia de <strong>nutrição</strong> saudável!</h1>
-                <p>A nutrição desempenha um papel fundamental na nossa saúde e bem-estar. Uma alimentação equilibrada fornece os nutrientes essenciais que o 
-                corpo precisa para funcionar corretamente, incluindo vitaminas, minerais, proteínas, carboidratos e gorduras saudáveis. Uma boa nutrição
-                ajuda a prevenir doenças crônicas como diabetes, doenças cardíacas e obesidade, além de fortalecer o sistema imunológico, melhorar a energia
-                e promover um melhor funcionamento mental. Ao escolher alimentos nutritivos, você está investindo em uma vida mais saudável e cheia de vitalidade.
-                Lembre-se: uma boa alimentação é a base para uma vida plena e equilibrada.
-                </p>
-
-                <div class="col-3">
-                    <img src="icone1.png" width= "160" height="160">
-                    <h3>Crie metas</h3>
-                    <p>Estabelecer metas saudáveis é o caminho para uma jornada de autodescoberta e bem-estar duradouro.</p>
-                </div>
-                <div class="col-3 bloco de texto" style="margin-top: 6em;">
-                    <img src="icone-verde3.png" width="160" height="160">
-                    <h3>Rotina saudável</h3>
-                    <p>Uma rotina saudável é o alicerce para uma vida plena e feliz. Ao priorizar o 
-                    bem-estar físico e mental, cultivamos hábitos que nutrem corpo e alma.</p>
-                </div>
-                <div class="col-3">
-                    <img src="icone2.png" width="160" height="160">
-                    <h3>Tenha o seu tempo</h3>
-                    <p>A paciência na jornada da boa alimentação é a chave para colher os frutos duradouros da saúde.
-                    Ao esperar os resultados, cultivamos uma relação sustentável com nosso corpo e mente.</p>
-                </div>
-            </div>
-          </div>
-          <div class="col-100 bloco-imagens-texto">
-            <div class="content" style="margin-left: 8%; float: left;">
-                <div class="col-3 bloco-texto bloco-imagem">
-                    <img src="saude1.png">
-                    <p><b>Consumo elevado de gorduras saturadas.</b></p>
-                    <p>Comer muitos alimentos gordurosos pode aumentar o colesterol ruim e o risco de doenças 
-                        cardíacas. Prefira gorduras saudáveis, como as de abacates, nozes 
-                        e peixes. Moderação é a chave para uma dieta equilibrada e saudável!
-                    </p>
-                </div>
-                <div class="col-3 bloco-texto bloco-imagem">
-                    <img src="saude2.png">
-                    <p><b>Consumir alimentos naturais é essencial para uma vida saudável.</b></p>
-                    <p>Alimentos naturais, como frutas e legumes, são ricos em nutrientes, vitaminas e fibras essenciais
-                         para a saúde. 
-                        Eles melhoram a digestão, aumentam a imunidade e ajudam a prevenir doenças. 
-                    </p>
-                </div>
-                <div class="col-3 bloco-texto bloco-imagem">
-                    <img src="saude3.png">
-                    <p><b>Cuidado com o sobrepeso.</b></p>
-                    <p>O sobrepeso aumenta o risco de doenças cardíacas, diabetes, hipertensão e certos cânceres, além de
-                         sobrecarregar as articulações.
-                         Manter um peso saudável é essencial para evitar esses problemas e garantir uma vida melhor.
-                    </p>
-                </div>
-            </div>
-            <div class="content" style="margin-left: 8%; float: left;">
-                <div class="col-3 bloco-texto bloco-imagem">
-                    <img src="saude4.png" margin-left: 8%; float: left;>
-                    <p><b>magreza elevada.</b></p>
-                    <p>Ser muito magro pode levar à desnutrição, fraqueza muscular, problemas
-                         ósseos e imunidade baixa. Manter um peso saudável é essencial para evitar esses riscos.
-                    </p>
-                </div>
-                <div class="col-3 bloco-texto bloco-imagem">
-                    <img src="saude5.png">
-                    <p><b>Crianças e os esportes.</b></p>
-                    <p>Incentivar as crianças a praticar esportes, melhorar a saúde, fortalecer músculos e ossos, 
-                        combater a obesidade e desenvolver disciplina e trabalho em equipe, formando adultos mais saudáveis.
-                    </p>
-                </div>
-                <div class="col-3 bloco-texto bloco-imagem">
-                    <img src="saude6.png">
-                    <p><b>A pratica de atividade fisica.</b></p>
-                    <p>A atividade física é essencial para a saúde, prevenindo doenças, melhorando o humor, fortalecendo o corpo e
-                         aliviando o estresse. Incorporar exercícios na rotina diária promove uma vida mais saudável e equilibrada.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-100 bloco-logos">
-            <div class="content">
-                <div class="col-4">
-                    <img alt="logo" title="logo" src="patrocinio1.png" width="170" height="170"/>
-                </div>
-                <div class="col-4">
-                    <img alt="logo" title="logo" src="patrocinio2.png" width="170" height="170"/>
-                </div>
-                <div class="col-4">
-                    <br />
-                    <img alt="logo" title="logo" src="patrocinio3.png" width="170" height="170"/>
-                </div>
-                <div class="col-4">
-                    <img alt="logo" title="logo" src="patrocinio4.png" width="170" height="170"/>
-                </div>
-            </div>
-        </div>
-
-
-        <footer>
-            <div class="col-100 footer">
-                <div class="content">
-                    <div class="col-4">
-                        <h3><b>Publicação popular</b></h3>
-                        <p>Início da construção do site.</p>
-                        <p class="clock">09-Junho 2024<p>
-                                <p>Finalização da construção do site.</p>
-                                <p class="clock">12-Junho 2024<p>
-                    </div>
-                    <div class="col-4">
-                        <h3><b>Tags</b></h3>
-                        <p>Descubra ferramentas incríveis para facilitar sua alimentação saudável!
-
-                            MyFitnessPal: Acompanhe suas refeições e exercícios.
-                            Yazio: Personalize seu plano alimentar.
-                            Blog da Nutri: Receitas, dicas e informações científicas.
-                            Dieta e Saúde: Histórias inspiradoras e conselhos de especialistas.
-                            Mantenha-se informado e motivado com essas recomendações!</p>
-                    </div>
-                    <div class="col-4">
-                        <h3><b>Um pouco sobre nós</b></h3>
-                        <p>
-                            Bem-vindo ao nosso portal de nutrição! Somos uma equipe apaixonada por saúde e bem-estar, dedicada a promover uma alimentação equilibrada
-                             e consciente. Aqui, oferecemos dicas práticas, receitas saudáveis e informações baseadas em evidências científicas para ajudar você a fazer 
-                             as melhores escolhas alimentares.
-                        </p>
-                    </div>
-                    <div class="col-4">
-                        <h3><b>Entrar em contato</b></h3>
-                        <p>
-                            Tem dúvidas ou quer saber mais? Estamos aqui para ajudar! Envie uma mensagem para
-                            o e-mail abaixo ou ligue. 
-                            Responderemo o mais rápido possível!
-                        </p>
-                        <p class="local">Guanambi - Bahia<p>
-                                <p class="emailico">nutribembrasil@gmaail.com<p>
-                                        <p class="telefoneico">(77) 9983-3471<p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <div class="col-100 footer-2">
-            <div class="content">
-    
+    <div class="titulo">
+        <h1>Dietas personalizadas</h1>
+    </div>
+    <div class="col-100 bloco-imagens-texto">
+        <div class="content" style="margin-left: 8%; float: left;">
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="peso1.png">
+                <p><b>IMC abaixo de 18,5</b></p>
                 <p>
-                    © 2024 - Nutrirbem Brasil
+                    Se o seu IMC está abaixo de 18.5, você está abaixo do peso recomendado. Estar abaixo do peso pode indicar 
+                    desnutrição ou outros problemas de saúde. siga a nossa guia abaixo para saber qual a melhor dieta para você. 
+                </p>
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+
+                <img src="peso2.png">
+                <p><b>Imc entre 18,5 e 25</b></p>
+                <p> Parabéns! Se o seu IMC está entre 18.5 e 25, você está no peso ideal. Manter um IMC dentro dessa faixa é um indicador de boa saúde. 
+                    Continue adotando hábitos saudáveis, 
+                    como uma alimentação balanceada e a prática regular de atividades físicas, para preservar seu bem-estar.
+                </p>
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="peso3.png">
+                <p><b>IMC entre 25 e 30</b></p>
+                <p>Se o seu IMC (Índice de Massa Corporal) está entre 25 e 30, você está na faixa de sobrepeso. Isso indica que você pode precisar 
+                    ajustar sua alimentação e rotina de exercícios para alcançar um peso mais saudável. siga a nossa guia abaixo para saber qual a melhor dieta para você. 
                 </p>
             </div>
         </div>
+        <div class="content" style="margin-left: 8%; float: left;">
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="peso4.png" margin-left: 8%; float: left;>
+                <p><b>IMC entre 30 e 35</b></p>
+                <p>Se o seu IMC está entre 30 e 35, você está na faixa de obesidade moderada. Isso pode aumentar o risco de problemas de saúde,
+                     por isso é importante buscar orientação médica para desenvolver um plano de ação que inclua alimentação saudável e atividade física regular, visando
+                      melhorar sua saúde e bem-estar.
+                </p>
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="peso5.png">
+                <p><b>IMC entre 35 e 40</b></p>
+                <p>Alerta: Se o seu IMC está entre 35 e 40, você está com obesidade severa. Essa condição pode aumentar significativamente o risco
+                    de problemas de saúde graves. É crucial buscar orientação médica para iniciar um plano de ação adequado e melhorar sua saúde e qualidade de vida.
+                </p>
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="peso6.png">
+                <p><b>IMC acima de 40</b></p>
+                <p>Alerta: Se o seu IMC está entre 35 e 40, você está com obesidade mórbida, o que pode aumentar significativamente o risco de problemas
+                    graves de saúde e mortalidade. É vital buscar ajuda médica imediatamente para desenvolver um plano de ação e melhorar sua saúde.
+                </p>
+            </div>
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+ <footer>
+            <div class="dietas">
+                <h4>Mas o que é IMC?</h4>
+                <p>O Índice de Massa Corporal (IMC) é uma medida amplamente utilizada para avaliar se uma pessoa está em um peso saudável em relação à sua altura.</p>
+                    <p>Esse índice é calculado dividindo-se o peso da pessoa em quilogramas pela altura em metros elevada ao quadrado. A fórmula matemática é:
 
+                    IMC = altura x altura / peso
+                    
+                    <p>O resultado desse cálculo classifica a pessoa em diferentes categorias de peso:</p>
+                    
+                    <p>Abaixo do peso: IMC menor que 18,5</p>
+                    <p>Peso normal: IMC entre 18,5 e 24</p>
+                    <p>Sobrepeso: IMC entre 25 e 30</p>
+                    <p>Obesidade: IMC igual ou maior que 30</p>
+                    
+                    <h3>importancia do IMC</h3>
+                        
+                    <p>O IMC é uma ferramenta simples e rápida para identificar possíveis problemas relacionados ao peso, como desnutrição ou obesidade, que podem levar a condições de saúde como doenças cardíacas, diabetes tipo 2, hipertensão, e outras complicações.</p> 
+                    <p> entanto, é importante destacar que o IMC não é uma medida perfeita. Ele não diferencia entre massa muscular e massa gorda, não considerando a distribuição de gordura no corpo ou fatores como idade, sexo e etnia.</p>
+                    
+                    <h3>Limitações do IMC</h3>
 
+                    <p>Massa Muscular: Pessoas com alta massa muscular, como atletas, podem ter um IMC elevado que não reflete excesso de gordura corporal.</p>
+                    <p>Idade e Sexo: As necessidades corporais variam com a idade e entre os sexos, algo que o IMC não considera.</p>
+                    <p>Distribuição de Gordura: O IMC não indica onde a gordura está distribuída no corpo. A gordura abdominal, por exemplo, é mais perigosa para a saúde do que a gordura em outras partes do corpo.</p>
+                    
+                    <h3>Uso do IMC</h3>
+
+                    <p>Apesar de suas limitações, o IMC continua sendo uma ferramenta útil e amplamente utilizada em contextos clínicos e de saúde pública. Ele serve como um ponto de partida para discussões sobre o peso e a saúde, mas deve ser complementado por outras avaliações,</p>
+                    <p>como medições de circunferência da cintura, avaliações dietéticas, e análises de composição corporal mais detalhadas.</p>
+                    
+                    <p>Em resumo, o IMC é um indicador simples e acessível para avaliar o estado nutricional de uma pessoa, mas deve ser utilizado com cautela e complementado por outras avaliações para um diagnóstico mais completo e preciso.</p>
+            
+                    <h4>Dieta para ganhar massa muscular</h4>
+                    <p>Café da Manhã:</p>
+                    <p>Omelete de 3 ovos com espinafre e tomate</p>
+                    <p>1 fatia de pão integral com abacate</p>
+                    <p>1 copo de leite ou iogurte grego</p>
+                    <p> 1 fruta (banana ou maçã)</p>
+                    <p>Lanche da Manhã:</p>
+                    <p>1 shake de proteína (pó de proteína, leite ou água, uma banana, aveia)</p>
+                    <p>1 punhado de amêndoas ou nozes</p>
+                    <h3>Almoço:</h3>
+                    <p>150-200g de peito de frango grelhado</p>
+                    <p>1 xícara de arroz integral</p>
+                    <p>1 xícara de brócolis ou outra verdura de sua escolha</p>
+                    <p>1 batata-doce média assada</p>
+                    <p>Salada mista (alface, tomate, pepino, cenoura) com azeite de oliva e limão</p>
+                    <p>Lanche da Tarde:</p>
+                    <p>1 sanduíche de pão integral com peito de peru, queijo branco, alface e tomate</p>
+                    <p>1 copo de suco natural ou uma fruta</p>
+                    <h3>Pré-Treino:</h3>
+                    <p>1 banana</p>
+                    <p>1 colher de sopa de manteiga de amendoim ou amêndoa</p>
+                    <p>Pós-Treino:</p>
+                    <p>1 shake de proteína (pó de proteína, leite ou água, uma fruta)</p>
+                    <h3>Jantar:</h3>
+                    <p>150-200g de filé de salmão ou outra fonte de proteína magra</p>
+                    <p>Quinoa ou batata-doce</p>
+                    <p>Aspargos ou outra verdura</p>
+                    <p>Salada mista com azeite de oliva e limão</p>
+
+                    <h4>Dieta para perder gordura</h4>
+                    <h3>Café da Manhã:</h3>
+                    <p>1 omelete de claras de ovo (3-4 claras) com espinafre e tomate</p>
+                    <p>1 fatia de pão integral ou 1/2 xícara de aveia com frutas vermelhas</p>
+                    <p>1 copo de chá verde ou café sem açúcar</p>
+                    <p>Lanche da Manhã:</h3>
+                    <p>1 maçã ou 1 punhado de frutas vermelhas</p>
+                    <p>1 punhado de amêndoas ou nozes</p>
+                    <h3>Almoço:</h3>
+                    <p>150g de peito de frango grelhado ou peixe</p>
+                    <p>1 xícara de quinoa ou arroz integral</p>
+                    <p>1 xícara de brócolis ou outra verdura</p>
+                    <p>Salada mista (alface, tomate, pepino, cenoura) com azeite de oliva e vinagre balsâmico</p>
+                    <h3>Lanche da Tarde:</h3>
+                    <p>1 iogurte grego natural com uma colher de chá de mel</p>
+                    <p>1 punhado de nozes ou sementes</p>
+                    <h3>Jantar:</h3>
+                    <p></p>150g de filé de salmão ou outra fonte de proteína magra</p>
+                    <p>Legumes cozidos no vapor (aspargos, abobrinha, cenoura)</p>
+                    <p>Salada mista com azeite de oliva e limão</p>
+
+                    <h4>Dieta vegetariana</h4>
+
+                    <h3>Café da Manhã:</h3>
+                    <p>Aveia com leite de amêndoas, frutas vermelhas, e uma colher de sopa de sementes de chia</p>
+                    <p>1 copo de suco de laranja ou um smoothie verde (espinafre, banana, maçã, e leite vegetal)</p>
+                    <p>1 fatia de pão integral com abacate e uma pitada de sal e pimenta</p>
+                    <h3>Lanche da Manhã:</h3>
+                    <p>1 maçã ou uma porção de frutas vermelhas</p>
+                    <p>1 punhado de amêndoas ou nozes</p>
+                    <h3>Almoço:</h3>
+                    <p>Salada de grão-de-bico com pepino, tomate, cebola roxa, azeitonas, e queijo feta (opcional) temperada com azeite de oliva e suco de limão</p>
+                    <p>1 xícara de quinoa ou arroz integral</p>
+                    <p>Vegetais assados (abobrinha, berinjela, pimentão)</p>
+                    <p>Lanche da Tarde:</h3>
+                    <p>1 iogurte grego ou iogurte de coco com frutas e uma colher de chá de mel ou xarope de agave</p>
+                    <p>1 barra de cereais ou granola caseira</p>
+                    <h3>Jantar:</h3>
+                    <p>Curry de lentilhas com leite de coco, espinafre, e especiarias (cúrcuma, cominho, coentro) servido com arroz integral ou pão naan integral</p>
+                    <p>Salada de folhas verdes com abacate, tomate, pepino e um molho de tahine</p>
+                </div>
+            </footer>
+    
+</body>
+</html>
 <style>
-
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
     *{
         margin: 0px;
         padding: 0px;
@@ -222,186 +193,24 @@
          font-family: 'Noto Sans', sans-serif;
         }
 
+        .logo{
+            padding: 8px;
+            padding-left: 43%;
+            float: left;
+        }
+
+        .titulo h1{
+            margin-top: 30px;
+            font-size: 35px;
+            text-transform: uppercase;
+            text-align: center;
+            color: #175230;
+        }
+
         .menu-principal{
             width: 100%;
             background-color: #2e8b57;
             height: 60px;
-        }
-
-        .main, content{
-            margin: 0 auto;
-            width: 980px;
-            position: relative;
-        }
-
-        .logo{
-            padding: 8px;
-            padding-left: 200px;
-            float: left;
-        }
-
-        .youtube{
-            display: inline-block;
-            margin-left: 42px;
-            list-style: none;
-            float: right;
-            padding: 12px;
-            padding-right: 15px;
-        }
-
-        .instagram {
-            display: inline block;
-            margin-left: 0;
-            list-style: none;
-            float :right; 
-            padding: 15px;
-            padding-right: 200px;
-        }
-
-        .header-2{
-            background-color: #ffffff;
-            width: 980px;
-            margin: 0 auto;
-            
-            
-        }
-
-        .menu-urls{
-            height: 75px;
-            border-bottom: 3px solid #d1cfcf;
-        }
-
-        .menu ul li{
-            display:  inline-block;
-            color: #2E8B57;
-            margin-left: 15px;
-            height: 55px;
-        }
-        
-        .menu ul li:hover{
-            border-bottom: 3px solid #2E8B57;
-    
-        }
-
-        .menu ul li a:hover{
-            color: #2E8B57;
-            transition: 0.3s;
-        }
-
-        .menu ul li a {
-            font-size: 18px;
-            color: #929292;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 3vh;
-
-        }  
-
-        .menu {
-            padding-top: 20px;
-            width: 80%;
-            float: left;
-        }
-
-        .busca{
-            width: 15%;
-            float: right;
-        }
-
-        .busca input{
-            height: 20px;
-            margin-top: 20px;
-            border: 1px solid #c4c3c3;
-            border-radius: 5px;
-        }
-
-        .col-100{
-            width: 100%;
-            float: left;
-            position: relative;
-        }
-
-        button.slick-prev{
-            font-size: 0px;
-            border: none;
-            width: 25px;
-            height: 51px;
-            z-index: 9;
-            background-color: transparent;
-            position: absolute;
-            background-image: url('anterior.png');
-            top: 35%;
-            left: 2%;
-            
-       }
-
-       button.slick-next{
-            font-size: 0px;
-            border: none;
-            width: 25px;
-            height: 51px;
-            z-index: 9;
-            background-color: transparent;
-            position: absolute;
-            background-image: url('proximo.png');
-            top: 35%;
-            right: 2%;
-        }
-
-        .slick-list{
-           width: 100%!important;
-        }
-
-       .slick-dots li button {
-            font-size: 0px;
-            border: 5px solid #d3d3d3;
-            width: 18px;
-            height: 18px;
-            background: transparent;
-            border-radius: 50%;
-            cursor: pointer;
-        }
-        .slick-dots{
-            margin: 0 auto;
-            width: 50%;
-            position: absolute;
-            left: 45%;
-            top: 93%;
-        }
-
-        li.slick-active button{
-        background: #2E8B57;
-        }
-
-       .slick-dots li{
-        padding-left: 10px;
-        display: inline-block;
-        }
-
-       .slick-initialized{
-        overflow: hidden;
-        }
-
-        .texto-detaque strong{
-            color: #313131;
-        }
-
-        .texto-detaque h1{
-            text-transform: uppercase;
-            color: #383838;
-            font-size: 30px;
-            text-align: center;
-            margin-top: 40px;
-        }
-
-        .texto-detaque p{
-            font-size: 15px;
-            color:#666666;
-            text-align: center;
-            margin-top: 30px;
-            margin-right: 7px;
-            margin-left: 7px;
-
         }
 
         .col-3{
@@ -413,13 +222,9 @@
             float: left;
             position: relative;
         }
-
-        .col-3 h3{
-            padding-left: 100px;
-        }
+ 
 
         .col-3 img{
-            
             margin-left: 87px;
         }
 
@@ -438,18 +243,19 @@
         .bloco-imagem b, p {
             text-align: left;
         }
+
         .bloco-texto {
             font-size: 85%;
             margin-top: 3em;
         }
 
         .h3 {
-            font-weight: normal!important;
+            
         }
 
         .bloco-imagens-texto {
             background-color: #eeeeee;
-       }
+        }
         .bloco-imagens-texto:before {
             width: 100%;
             display: inline-block;
@@ -459,6 +265,7 @@
             background-repeat: no-repeat;
             background-position: center;
         }
+
         .bloco-imagens-texto:after {
             width: 100%;
             display: inline-block;
@@ -468,113 +275,28 @@
 
         }
 
-       .col-4 {
-            float: left;
-            width: 25%;
-            text-align: center;
-        }
-        .col-4 img {
-            cursor: pointer;
-            margin: 0 auto;
-            padding-top: 1em;
-            vertical-align: middle;
-        }
-        .col-4 img:hover {
-            margin-top: 10px!important;
-            position: relative!important;
+        .dietas{
+            font-size: 80%;
+            margin-top: 38%;
+            margin-right: 60px;
         }
 
-        .bloco-logos {
-            height: 170px;
-        }
-
-        .bloco-logos img {
-            margin-top: 10px;
-        }
-
-        .footer h3 {
-            margin-top: 10px;
-            text-align: left;
-        }
-
-        .content p{
-            margin-top: 20px;
-        }
-
-
-
-        .footer {
-            margin-top: 50px;
-            background-image: url('footer.png');
-            color: #ffffff;
-        }
-
-        .footer-2 {
-            background-image: url('footer2.png');
-            color: #c1c1c1;
-            height: 90px;
-        }
-
-        .footer p {
-            margin-top: 16px;
-            width: 75%;
-            text-align: left;
-            font-size: 14px;
-        }
-
-        .footer-2 p {
-            padding: 10px;
-        }
-
-        .clock {
-            color: #898989!important;
-        }
-
-        .clock:before {
-            content: '';
-            width:  15px;
-            height: 15px;
-            display: inline-block;
-            background-image: url('relogio.png');
-            float: left;
-            background-repeat: no-repeat;
+        .dietas h3{
+            margin: 10px;
             padding-left: 5px;
         }
 
-        .local:before, .emailico:before, .telefoneico:before {
-            content: '';
-            width:  17px;
-            height: 24px;
-            display: inline-block;
-            float: left;
-            background-repeat: no-repeat;
+        .dietas h4{
+            font-size: 30px;
+            margin: 10px;
             padding-left: 5px;
         }
 
-        .local:before {
-            background-image: url('localização.png');
+        .importancia{
+            margin: 10px;
+            padding-left: 5px;
+
         }
 
-        .emailico:before {
-            background-image: url('email.png');
-        }
-
-        .telefoneico:before {
-            background-image: url('telefone.png');
-        }  
 
 </style>
-</body>
-<script>
-    
-    $('.slider-principal').slick({
-        dots: true,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 1,
-        adaptiveHeight: true,
-        autoplay: true,
-        autoplaySpeed: 2000
-    });
-</script>
-</html>
