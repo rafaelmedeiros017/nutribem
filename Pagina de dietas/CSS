@@ -1,0 +1,122 @@
+<style>
+     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+    *{
+        margin: 0px;
+        padding: 0px;
+       
+    }
+    
+    body {
+        margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         font-family: 'Noto Sans', sans-serif;
+        }
+
+        .logo{
+            padding: 8px;
+            padding-left: 43%;
+            float: left;
+        }
+
+        .titulo h1{
+            margin-top: 30px;
+            font-size: 35px;
+            text-transform: uppercase;
+            text-align: center;
+            color: #175230;
+        }
+
+        .menu-principal{
+            width: 100%;
+            background-color: #2e8b57;
+            height: 60px;
+        }
+
+        .col-3{
+            margin-top: 50px;
+            margin-left: 20px;
+            padding-left: 50px;
+            padding-right: 10px;
+            width: 25%;
+            float: left;
+            position: relative;
+        }
+ 
+
+        .col-3 img{
+            margin-left: 87px;
+        }
+
+        .bloco-imagem img {
+            margin: 0 auto;
+            width: 90%;
+            height: auto;
+        }
+        .bloco-imagem {
+            height: 300px;
+            border: 1px solid #c5c5c5;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin-left: 10px;
+        }
+        .bloco-imagem b, p {
+            text-align: left;
+        }
+
+        .bloco-texto {
+            font-size: 85%;
+            margin-top: 3em;
+        }
+
+        .h3 {
+            
+        }
+
+        .bloco-imagens-texto {
+            background-color: #eeeeee;
+        }
+        .bloco-imagens-texto:before {
+            width: 100%;
+            display: inline-block;
+            content: '';
+            height: 52px;
+            background: #ffffff;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .bloco-imagens-texto:after {
+            width: 100%;
+            display: inline-block;
+            content: '';
+            height: 70px;
+            background: #eeeeee;
+
+        }
+
+        .dietas{
+            font-size: 80%;
+            margin-top: 38%;
+            margin-right: 60px;
+        }
+
+        .dietas h3{
+            margin: 10px;
+            padding-left: 5px;
+        }
+
+        .dietas h4{
+            font-size: 30px;
+            margin: 10px;
+            padding-left: 5px;
+        }
+
+        .importancia{
+            margin: 10px;
+            padding-left: 5px;
+
+        }
+
+
+</style>

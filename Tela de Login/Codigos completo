@@ -6,7 +6,30 @@
     <link rel="stylesheet" href="login.css">
     <title>NutreBem</title>
 </head>
- <style>
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>NUTRIBEM<br>Vamos descobrir a sua melhor dieta</h1>
+            <img src="animate.svg" class="left-login-image">
+</div>
+    <div class="right-login">
+    <div class="card-login">
+        <h1>LOGIN</h1>
+        <div class="textfield">
+            <label for="usuario">Usuário</label>
+            <input type="text" name="usuario" placeholder="Usuário"> 
+    </div>
+    <div class="textfield">
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" placeholder="Senha">
+    </div> 
+    <button class="btn-login">LOGIN</button>
+    <button class="btn-cadastro"><a href="http://127.0.0.1:5500/Projeto%20final/cadastro.index.html">CRIAR NOVA CONTA</a></button>
+    
+        
+</div>
+</body>
+<style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
 body {
      margin: 0;
@@ -36,7 +59,9 @@ body * {
     flex-direction: column;
 }
 .left-login > h1{
+    font-size: 3ch;
     color:rgb(67, 107, 72)
+    
     
 }
 
@@ -91,6 +116,11 @@ body * {
     box-sizing: border-box;
 }
 
+.textfield > input:hover{
+    background-color:  #acbeaffa;
+        transition: 0.3s;
+}
+
 .textfield> label{
     color: #f0ffffde;
     margin-bottom: 10px;
@@ -122,6 +152,7 @@ body * {
 
 .btn-login:hover{
     background-color: rgb(190, 190, 190);
+    transition: 0.5s;
 }
 
 .btn-cadastro{
@@ -140,10 +171,12 @@ body * {
 .btn-cadastro a{
     text-decoration: none;
     color: rgb(73, 138, 82)
+    
 }
 
 .btn-cadastro:hover{
     background-color: rgb(190, 190, 190);
+    transition: 0.5s;
 }
 
 @media only screen and (max-width: 950px){
@@ -177,28 +210,4 @@ body * {
 }
 
  </style>  
-</head>
-<body>
-    <div class="main-login">
-        <div class="left-login">
-            <h1>NUTRIBEM<br>Vamos descobrir a sua melhor dieta</h1>
-            <img src="animate.svg" class="left-login-image">
-</div>
-    <div class="right-login">
-    <div class="card-login">
-        <h1>LOGIN</h1>
-        <div class="textfield">
-            <label for="usuario">Usuário</label>
-            <input type="text" name="usuario" placeholder="Usuário"> 
-    </div>
-    <div class="textfield">
-        <label for="senha">Senha</label>
-        <input type="password" name="senha" placeholder="Senha">
-    </div> 
-    <button class="btn-login">LOGIN</button>
-    <button class="btn-cadastro"><a href="http://127.0.0.1:5500/Projeto%20final/cadastro.index.html">CRIAR NOVA CONTA</a></button>
-    
-        
-</div>
-</body>
 </html>

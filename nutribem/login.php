@@ -1,12 +1,45 @@
+<?php
+include('conecxão.php');
+$cadastro = 'cadastro.php';
+$imageUrl = 'Captura de tela_17-6-2024_123320_.jpeg';
+if(isset($_POST['email']) && isset($_POST['senha'])){
+   
+if(strlen($_POST['email'])==0){
+    echo"preencha seu email";
+}else if(strlen($_POST['senha'])==0) {
+ echo"preencha sua senha";
+}else{
+    $email= $mysqli->real_escape_string($_POST['email']);
+    $senha = $mysqli->real_escape_string($_POST['senha']);
+    $sql_code = "SELECT * FROM usuarios WHERE email = '$email' AND senha = '$senha'";
+    $sql_query = $mysqli->query($sql_code) or die("falha na execução do código SQL:" . $mysqli->error);
+    $quantidade = $sql_query->num_rows; 
+
+    if($quantidade==1){
+$usuario = $sql_query->fetch_assoc();
+if(!isset($_SESSION)) {
+    session_start();
+}
+$_SESSION['id'] = $usuario['id'];
+$_SESSION['nome'] = $usuario['nome'];
+header("location:painel.php");
+    }else{
+        echo"falha ao logar! email ou senha incorretos";
+    
+    }
+    }
+}
+
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login.css">
-    <title>NutreBem</title>
-</head>
- <style>
+    <title>Nutribem</title>
+    <style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
 body {
      margin: 0;
@@ -36,7 +69,9 @@ body * {
     flex-direction: column;
 }
 .left-login > h1{
+    font-size: 3ch;
     color:rgb(67, 107, 72)
+    
     
 }
 
@@ -59,7 +94,7 @@ body * {
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background-color: rgb(88, 146, 96);
+    background-color: #589260;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
 }
@@ -91,6 +126,11 @@ body * {
     box-sizing: border-box;
 }
 
+.textfield > input:hover{
+    background-color:  #acbeaffa;
+        transition: 0.3s;
+}
+
 .textfield> label{
     color: #f0ffffde;
     margin-bottom: 10px;
@@ -115,6 +155,16 @@ body * {
     
 }
 
+.btn-login a{
+    text-decoration: none;
+    color: rgb(73, 138, 82)
+}
+
+.btn-login:hover{
+    background-color: rgb(190, 190, 190);
+    transition: 0.5s;
+}
+
 .btn-cadastro{
     width: 100%;
     padding: 16px 0px;
@@ -126,6 +176,17 @@ body * {
     font-weight: 800;
     letter-spacing: 3px;
     color:rgb(73, 138, 82)
+}
+
+.btn-cadastro a{
+    text-decoration: none;
+    color: rgb(73, 138, 82)
+    
+}
+
+.btn-cadastro:hover{
+    background-color: rgb(190, 190, 190);
+    transition: 0.5s;
 }
 
 @media only screen and (max-width: 950px){
@@ -158,30 +219,32 @@ body * {
       }
 }
 
- </style>  
+ </style>
 </head>
 <body>
+    <form action="" method="POST">
     <div class="main-login">
         <div class="left-login">
             <h1>NUTRIBEM<br>Vamos descobrir a sua melhor dieta</h1>
-            <img src="animate.svg" class="left-login-image">
+            <img src="<?php echo $imageUrl ?>" class="left-login-image">
 </div>
     <div class="right-login">
     <div class="card-login">
         <h1>LOGIN</h1>
         <div class="textfield">
-            <label for="usuario">Usuário</label>
-            <input type="text" name="usuario" placeholder="Usuário"> 
+            <label for="email">email</label>
+            <input type="email" name="email" placeholder="email"> 
     </div>
     <div class="textfield">
         <label for="senha">Senha</label>
         <input type="password" name="senha" placeholder="Senha">
     </div> 
-    <button class="btn-login">LOGIN</button>
-    <button class = "btn-cadastro">CRIAR NOVA CONTA</button>
-    <a href="http://127.0.0.1:5500/nutribem.html">
+    <button class="btn-login">LOGIN </button>
+    <button class="btn-cadastro"><a href="<?php echo $cadastro?>">CRIAR NOVA CONTA</a></button>
+    
         
 </div>
+</form>
 </body>
-</html>
+  
 </html>
